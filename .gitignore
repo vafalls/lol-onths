@@ -10,3 +10,55 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+#repo specific ignores
+step*
+
+# Compiled source #
+*.class
+*/bin/*
+
+# Eclipse files
+.project
+.classpath
+.settings
+.metadata
+
+# IntelliJ IDEA files
+.idea
+*.iws
+*.ipr
+*.iml
+
+# Test output files
+*/target/*
+/target/
+/target
+target/
+target/**/*
+*/target/**/*
+
+# Packages
+*.jar
+
+# Maven build files
+target
+reports
+application.properties
+avs-rest-service/application.properties
+
+
+# PMD
+.pmd
+
+# Merge files
+*.orig
+
+#tmp irectories
+tmp/
+test-output/
+
+# Windows binaries
+*.exe
+*.dll
