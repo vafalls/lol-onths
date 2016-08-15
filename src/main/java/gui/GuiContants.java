@@ -13,7 +13,7 @@ package gui;
 
 public class GuiContants {
 	public static int DEFAULT_SPACE = 0;
-	public static int BUTTON_WIDTH = 150;
+	public static int BUTTON_WIDTH = 300;
 	public static int BUTTON_HEIGHT = 50;
 	
 	public static int PANEL_WIDTH = 2*BUTTON_WIDTH+3*DEFAULT_SPACE;
